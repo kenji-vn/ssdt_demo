@@ -1,0 +1,1 @@
+SqlPackage.exe /Action:Publish /SourceFile:".\init.dacpac" /Profile:"..\demo_database.publish.xml"
