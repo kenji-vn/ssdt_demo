@@ -79,6 +79,7 @@
     <None Include="Snapshots\init.dacpac" />
     <None Include="Snapshots\AddCountry_ModifyCustomerTable.dacpac" />
     <None Include="demo_database.publish.xml" />
+    <None Include="Snapshots\add_unittest.dacpac" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
