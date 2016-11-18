@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{d9ab171b-6295-47ae-a7b7-e7db907d3934}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -73,10 +73,12 @@
     <Build Include="dbo\Stored Procedures\Customer_Insert.sql" />
     <Build Include="dbo\Tables\Country.sql" />
     <Build Include="dbo\Stored Procedures\Country_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Country_Insert_2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\init.dacpac" />
     <None Include="Snapshots\AddCountry_ModifyCustomerTable.dacpac" />
+    <None Include="demo_database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
